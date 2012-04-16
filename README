@@ -1,5 +1,6 @@
 sbt_archetype:
   Creates sbt directories for typical scala project.
+  It creates empty directories for Java too.
 
 It creates all directories in  
   test
