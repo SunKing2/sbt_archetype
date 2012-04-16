@@ -15,6 +15,13 @@ It creates a
 
 You'll like it, I promise.
 
+$ git clone git@github.com:SunKing2/sbt_archetype.git
+$ cd sbt_archetype
+$ sbt compile
+$ sbt test
+$ sbt run
+Now rename the sbt_archetype directory to your project's name.
+
 Don't do this unless you know what you are doing:
 (there's a lame bash script called sbtdirs that COULD rebuild some of this:)
 $ chmod +x sbtdirs
