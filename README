@@ -1,0 +1,21 @@
+sbt_archetype:
+  Creates sbt directories for typical scala project.
+
+It creates all directories in  
+  test
+  src
+  
+It uses
+  com.example
+
+It creates a 
+  Hello 
+  Short test example for scalatest.
+
+You'll like it, I promise.
+
+Don't do this unless you know what you are doing:
+(there's a lame bash script called sbtdirs that COULD rebuild some of this:)
+$ chmod +x sbtdirs
+$ sbtdirs
+

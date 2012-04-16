@@ -1,0 +1,24 @@
+mkdir -p src/main/resources
+mkdir -p src/main/scala
+mkdir -p src/main/java
+mkdir -p src/test/resources
+mkdir -p src/test/scala
+mkdir -p src/test/java
+mkdir -p src/main/resources
+mkdir -p src/test/resources
+
+mkdir lib
+mkdir project
+echo 'sbt.version=0.11.2'>project/build.properties
+echo 'target/'>.gitignore
+
+echo 'name := "hello"'>build.sbt
+echo >>build.sbt
+echo 'version := "0.1"'>>build.sbt
+echo >>build.sbt
+echo 'organization := "com.example"'>>build.sbt
+echo >>build.sbt
+echo 'scalaVersion := "2.9.1"'>>build.sbt
+echo >>build.sbt
+echo 'libraryDependencies += "org.scalatest" %% "scalatest" % "1.7.1" % "test"'>>build.sbt
+
